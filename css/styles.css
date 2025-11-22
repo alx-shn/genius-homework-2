@@ -63,7 +63,7 @@ ul {
 }
 
 *,
-*::after *::before {
+*::after, *::before {
   box-sizing: border-box;
 }
 
@@ -457,3 +457,4 @@ a {
   color: var(--color-primary-with);
   font-size: 13px;
 }
+
